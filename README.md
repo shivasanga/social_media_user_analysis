@@ -26,13 +26,13 @@ The Social Media Analysis project aims to provide valuable insights into user be
 ### 1.Database Setup
 -**Database Creation:** The project starts by creating a database named `socialmedia_project_p1`
 ```sql
---Creating User Schema
-CREATE USER C##/*Your Schema Name*/ IDENTIFIED BY /*Your password*/ 
-
-GRANT CONNECT TO C##/*Your Schema Name*/ ;
-
-GRANT RESOURCE TO C##/*Your Schema Name*/
-ALTER USER C##/*Your Schema Name*/ QUOTA unlimited ON USERS;
+  Creating User Schema
+  CREATE USER C##/*Your Schema Name*/ IDENTIFIED BY /*Your password*/ 
+  
+  GRANT CONNECT TO C##/*Your Schema Name*/ ;
+  
+  GRANT RESOURCE TO C##/*Your Schema Name*/
+  ALTER USER C##/*Your Schema Name*/ QUOTA unlimited ON USERS;
 ```
 -**Data Extraction:** Extract data from Instagram’s database using SQL queries.
 
@@ -41,8 +41,7 @@ ALTER USER C##/*Your Schema Name*/ QUOTA unlimited ON USERS;
   
   ## A.Marketing Insights
   **Q1. Find the 5 oldest users of the Instagram from the database provided**:
-  
-    ```sql
+  ```sql
       SELECT * FROM users;
       
       SELECT
@@ -55,7 +54,7 @@ ALTER USER C##/*Your Schema Name*/ QUOTA unlimited ON USERS;
       FETCH FIRST 5 ROWS ONLY;
   ```
 **Q2.Find the users who have never posted a single photo on Instagram**:
-      ```sql
+  ```sql
       SELECT * FROM photos,users;
       
       SELECT
@@ -69,7 +68,7 @@ ALTER USER C##/*Your Schema Name*/ QUOTA unlimited ON USERS;
           u.username;
   ```
   **Q3. Identify the winner of the contest and provide their details to the team**:
-      ```sql
+  ```sql
       SELECT * FROM likes,photos,users;
       
       SELECT
@@ -85,10 +84,10 @@ ALTER USER C##/*Your Schema Name*/ QUOTA unlimited ON USERS;
           u.username
       ORDER BY
           likess DESC
-      FETCH FIRST 1 ROW ONLY;
-  ```
-    **Q4. Identify and suggest the top 5 most commonly used hashtags on the platform**:
-      ```sql
+      FETCH FIRST 1 ROW ONL
+```
+**Q4. Identify and suggest the top 5 most commonly used hashtags on the platform**:
+```sql
       SELECT * FROM photo_tags,tags;
       
       SELECT
@@ -103,7 +102,7 @@ ALTER USER C##/*Your Schema Name*/ QUOTA unlimited ON USERS;
           ht DESC
       FETCH FIRST 5 ROWS ONLY;
   ```
-    **Q5. What day of the week do most users register on? Provide insights on when to schedule an AD campaign**:
+  **Q5. What day of the week do most users register on? Provide insights on when to schedule an AD campaign**:
       ```sql
       SELECT * FROM users;
       
@@ -116,11 +115,11 @@ ALTER USER C##/*Your Schema Name*/ QUOTA unlimited ON USERS;
           TO_CHAR(created_at, 'Day')
       ORDER BY
           COUNT(username) DESC;
-  ```
+          ```
   ## B.Investor Metrics
   **Q6. Provide how many times does average user posts on Instagram. Also, provide the total number of 
         photos on Instagram and total number of users**:
-      ```sql
+```sql
     SELECT * FROM photos,users;
     
     SELECT
@@ -133,7 +132,7 @@ ALTER USER C##/*Your Schema Name*/ QUOTA unlimited ON USERS;
   ```
   **Q7. Provide data on users (bots) who have liked every single photo on the site (since any normal user would
         not able to do this).**:
-      ```sql
+  ```sql
       SELECT * FROM users,likes;
       
       SELECT
