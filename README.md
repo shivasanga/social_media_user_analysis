@@ -212,9 +212,23 @@ The Social Media Analysis project aims to provide valuable insights into user be
 **7. Bot Detection:** We identified **13** accounts that have liked every single photo, suggesting they may be bots or fake accounts.
 
 # Reports
--**Marketing Report:** A detailed analysis for the marketing team covering loyal users, inactive users, contest winner, popular hashtags, and the best days for ads.
+* **Marketing Report:** A detailed analysis for the marketing team covering loyal users, inactive users, contest winner, popular hashtags, and the best days for ads.
 
--**Investor Report:** A report showcasing user engagement statistics and bot activity detection to assure investors of the platform's relevance and user activity.
+* **Investor Report:** A report showcasing user engagement statistics and bot activity detection to assure investors of the platform's relevance and user activity.
 
 # Conclusion
 This project provides comprehensive insights into Instagram user behavior, highlighting trends, user engagement, and opportunities for marketing campaigns. By leveraging data analysis, the product and marketing teams can make informed decisions that drive business growth. Additionally, the investor metrics indicate a strong user base with active engagement, while bot detection ensures platform authenticity.
+
+# How to Use
+1.**Clone the Repository**: Clone this project repository from GitHub.
+2.**Set Up Table Creation**: Run the SQL scripts provided in the `sm_project_dataset.txt` for creating table stracure 
+and insert statements 
+3.**Run the Queries**: Use SQL queries provided in the `socialmedia_project_p1` file to perform you analysis
+4.**Explore and Modify**: Feel free to modify the queries to explore different aspects of the dataset or answer additional
+business questions.
+
+# Author - Shiva Sanga
+This project is part of my portfolio, showcasing the SQL skills essential for data analyst roles. If you have any questions,
+feedback, or would like to collaborate, feel free to get in touch!
+
+* **Linkedin**: [Connect with me professionally](www.linkedin.com/in/shiva-sanga)
