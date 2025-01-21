@@ -4,9 +4,9 @@ User analysis is about understanding how users interact with a digital product, 
 
 ## project Overview
 
-**Project Title:** Social Media User Analysis
-**Level:** Beginner
-**Database:** `socialmedia_project_p1`
+**Project Title**: Social Media User Analysis
+**Level**: Beginner
+**Database**: `socialmedia_project_p1`
 
 The Social Media Analysis project aims to provide valuable insights into user behavior on Instagram using Oracle SQL. The analysis focuses on understanding user engagement, identifying inactive users, finding contest winners, and assisting marketing and product teams in their decision-making processes. By exploring Instagram's user data, we derive business insights to improve marketing strategies, app features, and user experience, while also monitoring app performance metrics to detect any anomalies, such as bot accounts.
 
@@ -159,10 +159,10 @@ The Social Media Analysis project aims to provide valuable insights into user be
   ## Marketing Insights
   **1.Loyal Users:** This 5 oldest users on Instagram database.
   ```sql
-      Darby_Herzog	06-MAY-16 12.14.21.191000000 AM
+      Darby_Herzog	    06-MAY-16 12.14.21.191000000 AM
       Emilio_Bernier52	06-MAY-16 01.04.29.960000000 PM
-      Elenor88	08-MAY-16 01.30.40.677000000 AM
-      Nicole71	09-MAY-16 05.30.22.371000000 PM
+      Elenor88	        08-MAY-16 01.30.40.677000000 AM
+      Nicole71	        09-MAY-16 05.30.22.371000000 PM
       Jordyn.Jacobson2	14-MAY-16 07.56.25.835000000 AM
 ```
 **2.Inactive Users:** This are the inactive users on instagram who have never posted a single photo on Instagram.
@@ -194,22 +194,22 @@ The Social Media Analysis project aims to provide valuable insights into user be
     Rocio33
     Tierra.Trantow
 ```
-**3.Contest Winner:** The user with the highest number of likes on a single post is [Zack_Kemmer93], with 48 likes.
+**3.Contest Winner:** The user with the highest number of likes on a single post is [**Zack_Kemmer93**], with **48** likes.
 
 **4.Hashtag Research:** The top 5 most commonly used hashtags are:
 ```sql
-  smile	59
-  beach	42
-  party	39
-  fun	38
+  smile  	59
+  beach	  42
+  party	  39
+  fun	    38
   concert	24
 ```
-**5.Best Day for Ads:** The most popular day for new user registrations is [Thursday and Sunday], suggesting the optimal time to launch an ad campaign.
+**5.Best Day for Ads:** The most popular day for new user registrations is [**Thursday and Sunday**], suggesting the optimal time to launch an ad campaign.
 
 ## Investor Insights
-**6.User Engagement:** The average user posts [2.57] times on instagram. The total number of photos on Instagram is [257], with a total user base of [100].
+**6.User Engagement:** The average user posts [**2.57**] times on instagram. The total number of photos on Instagram is [**257**], with a total user base of [**100**].
 
-**7. Bot Detection:** We identified 13 accounts that have liked every single photo, suggesting they may be bots or fake accounts.
+**7. Bot Detection:** We identified **13** accounts that have liked every single photo, suggesting they may be bots or fake accounts.
 
 # Reports
 -**Marketing Report:** A detailed analysis for the marketing team covering loyal users, inactive users, contest winner, popular hashtags, and the best days for ads.
