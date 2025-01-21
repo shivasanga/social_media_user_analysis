@@ -236,11 +236,11 @@ FROM users;
 This project provides comprehensive insights into Instagram user behavior, highlighting trends, user engagement, and opportunities for marketing campaigns. By leveraging data analysis, the product and marketing teams can make informed decisions that drive business growth. Additionally, the investor metrics indicate a strong user base with active engagement, while bot detection ensures platform authenticity.
 
 # How to Use
-1.**Clone the Repository**: Clone this project repository from GitHub.
-2.**Set Up Table Creation**: Run the SQL scripts provided in the `sm_project_dataset.txt` for creating table stracure 
+1. **Clone the Repository**: Clone this project repository from GitHub.
+2. **Set Up Table Creation**: Run the SQL scripts provided in the `sm_project_dataset.txt` for creating table stracure 
 and insert statements.
-3.**Run the Queries**: Use SQL queries provided in the `socialmedia_project_p1` file to perform your analysis.
-4.**Explore and Modify**: Feel free to modify the queries to explore different aspects of the dataset or answer additional
+3. **Run the Queries**: Use SQL queries provided in the `socialmedia_project_p1` file to perform your analysis.
+4. **Explore and Modify**: Feel free to modify the queries to explore different aspects of the dataset or answer additional
 business questions.
 
 # Author - Shiva Sanga
