@@ -231,4 +231,4 @@ business questions.
 This project is part of my portfolio, showcasing the SQL skills essential for data analyst roles. If you have any questions,
 feedback, or would like to collaborate, feel free to get in touch!
 
-* **Linkedin**: [Connect with me professionally](www.linkedin.com/in/shiva-sanga)
+* **Linkedin**: [Connect with me professionally](https://www.linkedin.com/in/shiva-sanga)
