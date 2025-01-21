@@ -238,8 +238,8 @@ This project provides comprehensive insights into Instagram user behavior, highl
 # How to Use
 1.**Clone the Repository**: Clone this project repository from GitHub.
 2.**Set Up Table Creation**: Run the SQL scripts provided in the `sm_project_dataset.txt` for creating table stracure 
-and insert statements 
-3.**Run the Queries**: Use SQL queries provided in the `socialmedia_project_p1` file to perform your analysis
+and insert statements.
+3.**Run the Queries**: Use SQL queries provided in the `socialmedia_project_p1` file to perform your analysis.
 4.**Explore and Modify**: Feel free to modify the queries to explore different aspects of the dataset or answer additional
 business questions.
 
