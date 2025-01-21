@@ -6,7 +6,7 @@ User analysis is about understanding how users interact with a digital product, 
 
 * **Project Title**: Social Media User Analysis
 * **Level**: Beginner
-* **Database**: `socialmedia_project_p1`
+* **Database**: `socialmedia_project`
 
 The Social Media Analysis project aims to provide valuable insights into user behavior on Instagram using Oracle SQL. The analysis focuses on understanding user engagement, identifying inactive users, finding contest winners, and assisting marketing and product teams in their decision-making processes. By exploring Instagram's user data, we derive business insights to improve marketing strategies, app features, and user experience, while also monitoring app performance metrics to detect any anomalies, such as bot accounts.
 
@@ -223,7 +223,7 @@ This project provides comprehensive insights into Instagram user behavior, highl
 1.**Clone the Repository**: Clone this project repository from GitHub.
 2.**Set Up Table Creation**: Run the SQL scripts provided in the `sm_project_dataset.txt` for creating table stracure 
 and insert statements 
-3.**Run the Queries**: Use SQL queries provided in the `socialmedia_project_p1` file to perform you analysis
+3.**Run the Queries**: Use SQL queries provided in the `socialmedia_project_p1` file to perform your analysis
 4.**Explore and Modify**: Feel free to modify the queries to explore different aspects of the dataset or answer additional
 business questions.
 
