@@ -13,12 +13,12 @@ The Social Media Analysis project aims to provide valuable insights into user be
 ## Objectives
 **The objectives of this project are to:**
 
-**1.Marketing Insights:** Help the marketing team launch effective campaigns by analyzing user behavior and engagement patterns.
-**2.User Engagement Metrics:** Provide a detailed analysis of user interactions, post frequency, and the most used hashtags.
-**3.Contest Analysis:** Identify the winner of a contest based on likes received on a single post.
-**4.Inactive User Identification:** Identify users who have not posted any photos on Instagram.
-**5.Bot Detection:** Analyze potential bot accounts by tracking engagement patterns.
-**6.Investor Metrics:** Provide data-driven insights into user engagement, ensuring the platform’s continued relevance and growth.
+1. **Marketing Insights:** Help the marketing team launch effective campaigns by analyzing user behavior and engagement patterns.
+2. **.User Engagement Metrics:** Provide a detailed analysis of user interactions, post frequency, and the most used hashtags.
+3. **.Contest Analysis:** Identify the winner of a contest based on likes received on a single post.
+4. **.Inactive User Identification:** Identify users who have not posted any photos on Instagram.
+5. **Bot Detection:** Analyze potential bot accounts by tracking engagement patterns.
+6. **Investor Metrics:** Provide data-driven insights into user engagement, ensuring the platform’s continued relevance and growth.
 
 ## Project Structure
 **The project is organized into the following sections:**
