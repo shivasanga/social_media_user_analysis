@@ -24,7 +24,7 @@ The Social Media Analysis project aims to provide valuable insights into user be
 **The project is organized into the following sections:**
 
 ### 1.Database Setup
-* **Database Creation:** The project starts by creating a database named `socialmedia_project_p1`
+* **Database Creation:** The project starts by creating a database named `socialmedia_project`
 ```sql
   Creating User Schema
   CREATE USER C##/*Your Schema Name*/ IDENTIFIED BY /*Your password*/ 
@@ -36,7 +36,23 @@ The Social Media Analysis project aims to provide valuable insights into user be
 ```
 * **Data Extraction:** Extract data from Instagram’s database using SQL queries.
 
-## 2.Data Analysis & Findings
+## 2.Data Exploration
+* **Total tables we have**
+```sql
+SELECT * FROM users;
+SELECT * FROM comments;
+SELECT * FROM follows;
+SELECT * FROM likes;
+SELECT * FROM photo_tags;
+SELECT * FROM photos;
+SELECT * FROM tags;
+```
+* **How many total users we have**
+```sql
+SELECT COUNT(*) AS total_users
+FROM users;
+```
+## 3.Data Analysis & Findings
   The follwing SQL queries were developed to answer specific business questions:
   
   ## A.Marketing Insights
