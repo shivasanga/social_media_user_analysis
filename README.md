@@ -14,9 +14,9 @@ The Social Media Analysis project aims to provide valuable insights into user be
 **The objectives of this project are to:**
 
 1. **Marketing Insights:** Help the marketing team launch effective campaigns by analyzing user behavior and engagement patterns.
-2. **.User Engagement Metrics:** Provide a detailed analysis of user interactions, post frequency, and the most used hashtags.
-3. **.Contest Analysis:** Identify the winner of a contest based on likes received on a single post.
-4. **.Inactive User Identification:** Identify users who have not posted any photos on Instagram.
+2. **User Engagement Metrics:** Provide a detailed analysis of user interactions, post frequency, and the most used hashtags.
+3. **Contest Analysis:** Identify the winner of a contest based on likes received on a single post.
+4. **Inactive User Identification:** Identify users who have not posted any photos on Instagram.
 5. **Bot Detection:** Analyze potential bot accounts by tracking engagement patterns.
 6. **Investor Metrics:** Provide data-driven insights into user engagement, ensuring the platform’s continued relevance and growth.
 
@@ -24,7 +24,7 @@ The Social Media Analysis project aims to provide valuable insights into user be
 **The project is organized into the following sections:**
 
 ### 1.Database Setup
--**Database Creation:** The project starts by creating a database named `socialmedia_project_p1`
+* **Database Creation:** The project starts by creating a database named `socialmedia_project_p1`
 ```sql
   Creating User Schema
   CREATE USER C##/*Your Schema Name*/ IDENTIFIED BY /*Your password*/ 
@@ -34,7 +34,7 @@ The Social Media Analysis project aims to provide valuable insights into user be
   GRANT RESOURCE TO C##/*Your Schema Name*/
   ALTER USER C##/*Your Schema Name*/ QUOTA unlimited ON USERS;
 ```
--**Data Extraction:** Extract data from Instagram’s database using SQL queries.
+* **Data Extraction:** Extract data from Instagram’s database using SQL queries.
 
 ## 2.Data Analysis & Findings
   The follwing SQL queries were developed to answer specific business questions:
