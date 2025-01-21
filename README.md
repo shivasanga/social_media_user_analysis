@@ -103,7 +103,7 @@ The Social Media Analysis project aims to provide valuable insights into user be
       FETCH FIRST 5 ROWS ONLY;
   ```
   **Q5. What day of the week do most users register on? Provide insights on when to schedule an AD campaign**:
-      ```sql
+  ```sql
       SELECT * FROM users;
       
       SELECT
@@ -115,7 +115,7 @@ The Social Media Analysis project aims to provide valuable insights into user be
           TO_CHAR(created_at, 'Day')
       ORDER BY
           COUNT(username) DESC;
-          ```
+   ```
   ## B.Investor Metrics
   **Q6. Provide how many times does average user posts on Instagram. Also, provide the total number of 
         photos on Instagram and total number of users**:
