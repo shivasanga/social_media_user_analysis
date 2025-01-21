@@ -1,0 +1,42 @@
+Social Media Analysis:-
+Description:
+User analysis is the process by which we track how users engage and interact 
+With our digital product (software or mobile application) in an attempt to 
+Derive business insights for marketing, product & development teams.
+
+These insights are then used by teams across the business to launch a new 
+Marketing campaign, decide on features to build an app, track the success of
+The app by measuring user engagement and improve the experience
+Altogether  while helping the business grow. You are working with the 
+Product team of instagram and product manager has asked you to provide
+Insights on the questions asked by the management team.
+
+A)Marketing: The marketing team wants to launch some campaigns, and the
+Need your help with the following.
+1.Rewarding Most Loyal Users:  People who have been using  the platform  for longest time.
+Your Task: Find the 5 oldest users of  the Instagram from the database provided
+2. Remind Inactive Users to Start Posting: By sending  them promotional emails to post 
+Their 1st photo.
+Your Task:  Find the users who have never posted single photo on Instagram.
+3. Declaring  Contest  Winner:  The team started a contest and the user who gets the most 
+Likes on a single photo will win the contest now they wish to declare the winner.
+Your Task: Identify the winner of the contest and provide their details to the team.
+4.Hashtag Researching:   A partner brand wants to know, which hashtags to use in the post 
+To reach the most people on the platform.
+Your Task:  Identify and suggest the top 5 most commonly used hashtags  on the platform.
+5. Launch AD Campaign: The team wants to know, which day would be the best day to 
+Launch  ADs
+Your Task: What day of the week do most users register on? Insights on when to schedule an
+ AD Campaign.
+
+B) Investor Metrics:  Our investors want to know if Instagram is performing well and is not becoming redundant 
+Like Facebook, they want to assess the app on the following grounds.
+1.User Engagement: Are users still as active and post on instagram or they are
+ making fewer posts.
+Your Task: Provide how many times does average user posts on instagram.
+ Also, provide the total number of photos on instagram / total number of 
+users.
+2. Bots & Fake Accounts:  The investors wants to know if the platform is 
+crowded with fake and dummy accounts.
+You Task: Provide data on users (bots) who have liked every single photo on 
+the site (since any normal user would not be able to do this).
